@@ -16,6 +16,7 @@
 
 //extern float ranf();         /* ranf() is uniform in 0..1 */
 
+/*an implementation of ranf() */
 float ranf(float max)
 {
   return (((float)rand())/RAND_MAX)*max;
